@@ -1,0 +1,38 @@
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+hr{
+    width: 500px;
+    height: 5px;
+    background-color: rgb(104, 40, 40);
+}
+#board{
+    width: 450px;
+    height: 450px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    width: 145px;
+    height: 145px;
+    font-size: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-line{
+    border-bottom: 5px solid black;
+
+}
+.vertical-line{
+    border-right: 5px solid rgb(15, 12, 12);
+}
+.winner{
+    background-color: rgb(168, 185, 67);
+    color: red;
+}
+
